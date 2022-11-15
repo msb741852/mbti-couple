@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower:400');
+
+* {
+  margin: 0;
+  font-family: 'Gamja Flower';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App { 
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  position:absolute;
+  top: 0;
+  background-color: rgba(137, 229, 250, 0.272);
+  width: 100vw;
+  z-index: 10;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header span {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: rgb(135, 135, 135);
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.question_box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.question_box button {
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+  background-color:lightblue;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.536);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question_box span+button {
+  margin-top: 20px;
+}
+
+.whatMbti {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.whatMbti span {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.whatMbti select {
+  margin-bottom: 20px;
+}
+
+.whatMbti button {
+  padding: 10px;
+  background-color:lightblue;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.536);
+}
+
+.mbti_result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(224, 244, 251);
+  width: 60%;
+  height: 40%;
+  padding: 5vw;
+  border-radius: 10px;
+}
+
+.loading {
+  padding: 50px;
+  border-radius: 6px;
+  background-color:rgb(224, 244, 251);
+}
+
+.mbti_result img {
+  width: 90%;
+  border-radius: 6px;
+  border: 2px solid rgba(128, 128, 128, 0.222);
+}
+
+.mbti_result span {
+  white-space: normal;
+}
+
+.mbti_result button {
+  border: none;
+  background-color: rgb(192, 233, 238);
+  padding: 5px 20px;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  background-color: aliceblue;
+  width: 50vw;
+  height: 50vh;
 }
