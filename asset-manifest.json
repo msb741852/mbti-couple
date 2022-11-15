@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mbti-couple/static/css/main.5b0cf940.css",
+    "main.js": "/mbti-couple/static/js/main.cce6e4b3.js",
+    "static/media/greeen.gif": "/mbti-couple/static/media/greeen.ec78210d346121fe358b.gif",
+    "static/media/green.gif": "/mbti-couple/static/media/green.c8ed3ed925ebe8b7b63e.gif",
+    "static/media/red.gif": "/mbti-couple/static/media/red.e219ea168dd2aa397582.gif",
+    "static/media/blue.gif": "/mbti-couple/static/media/blue.464d9f73a868d3f80330.gif",
+    "static/media/yellow.gif": "/mbti-couple/static/media/yellow.d707c0cb1ce2876e40a1.gif",
+    "index.html": "/mbti-couple/index.html",
+    "main.5b0cf940.css.map": "/mbti-couple/static/css/main.5b0cf940.css.map",
+    "main.cce6e4b3.js.map": "/mbti-couple/static/js/main.cce6e4b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b0cf940.css",
+    "static/js/main.cce6e4b3.js"
+  ]
+}
